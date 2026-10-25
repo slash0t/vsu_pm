@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Результаты расчётов, которые можно воспроизвести (итоговые артефакты коммитим руками)
+phases/*/results/tmp/
+*.log
+
+# ОС / редакторы
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+~$*
+__pycache__/
